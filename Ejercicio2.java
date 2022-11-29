@@ -14,11 +14,14 @@ import java.util.Scanner;
 public class Ejercicio2 {
 	public static void main(String[] args) {
 		
+		//Definimos la clase "n" donde vamos a guardar la respuesta.
 		Scanner n = new Scanner(System.in);
 		
+		//Pedimos al usuario que introduzca la respuesta.
 		System.out.print("Introduzca una hora entra las '0-24': ");
 		int hora = n.nextInt();
 		
+		//Definimos las sentencias "if" cada una con su parámetro y respuesta.
 		if ((hora >= 6) && (hora <= 12 )) {
 			
 			System.out.println("Buenos Días.");
